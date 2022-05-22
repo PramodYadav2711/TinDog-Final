@@ -1,163 +1,182 @@
-#title{
+#title {
   background-color: #ff4c68;
-  color: #ffffff;
-
+  text-align: left;
 }
 
-.container-fluid{
-  padding: 3% 15% 4%;
+.container-fluid {
+  padding: 1% 15%;
 }
 
-.main-heading{
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* headings */
+.main-heading {
   font-family: 'Montserrat', sans-serif;
   font-size: 3.5rem;
   line-height: 1.5;
   font-weight: 900;
-
-
+  color: #fff;
 }
 
-body{
-  font-family: 'Montserrat', sans-serif;
-}
-h2{
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
+.section-heading {
   font-size: 3rem;
   line-height: 1.5;
 }
-h3{
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-}
-p{
-  color: #8f8f8f;
-}
 
 /* navigation bar */
-.navbar{
-  padding-bottom: 4.5rem;
+.navbar {
+  padding-bottom: 3.5rem;
 }
-.nav-item{
+
+.nav-item {
   padding: 0 18px;
 }
-.nav-link{
+
+.nav-link {
   font-size: 1.2rem;
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
-
 }
 
-
-.navbar-brand{
+.navbar-brand {
   font-family: 'Ubuntu', sans-serif;
   font-size: 2rem;
   font-weight: bold;
-
 }
 
 /* download buttons */
-.download-button{
+.download-button {
   margin: 5% 4% 5% 0;
 }
 
 /* title-image */
+.title-image {
 
-.title-image{
-  /* width: 280px;
-  height: 566px; */
   width: 60%;
   transform: rotate(25deg);
   position: absolute;
   right: 23%;
+
 }
-.title-div{
+
+.title-div {
   position: relative;
-  /* to fix the image issur geting oversized when set it's widthto 60% and positionto absolute, refer .title-image */
+  /* to fix the image issue geting oversized when set it's widthto 60% and positionto absolute, refer .title-image */
 }
 
 /* features section */
-
-#features{
+#features {
   padding: 7% 12%;
   background-color: #fff;
   position: relative;
+
   /* z-index: 1; */
 }
-.feature-box{
-  text-align: center;
-  /* padding: 3%; */
+
+.feature-box {
+
+  padding: 3%;
+
 }
 
-.logo{
+.highlights {
+  font-size: 1.5rem;
+}
+
+.logo {
   color: #ef8172;
   margin-bottom: 1rem;
 }
-.logo:hover{
+
+.logo:hover {
   color: #ff4c68;
 }
 
 /* testemonials */
-#testimonials{
-  text-align: center;
+#testimonials {
+
   background-color: #ef8172;
   color: #fff;
-
 }
-.testimonial-image{
+
+.testimonial-image {
   width: 10%;
   border-radius: 100%;
   margin: 20px;
 }
-.carousel-item{
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.carousel-item {
   padding: 7% 15%;
 }
-#press{
+
+#press {
   background-color: #ef8172;
-  text-align: center;
+
   padding-bottom: 2%;
-
-
 }
-.press-logo{
+
+.press-logo {
   width: 15%;
   margin: 20px 20px 50px;
   padding: 20px 20px 50px;
 }
+
 /* pricing section */
-#pricing{
+#pricing {
   padding: 100px;
-  text-align: center;
 
 }
-.pricing-column{
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
   padding: 3% 2%;
 }
 
 /* media query */
 @media (max-width: 1028px) {
-  #title{
-    text-align: center;
+  #title {
+
   }
 
-  .title-image{
+  .title-image {
     position: static;
     transform: rotate(0);
   }
+
   /* .title-div{
     position: static;
   } */
 }
 
-
 /* Call to action section */
-
-#cta{
+#cta {
   background-color: #ff4c68;
-  text-align: center;
+
   padding: 7% 15%;
 }
-.cta-line{
+
+.cta-line {
   font-family: 'Montserrat', sans-serif;
   font-weight: 900;
   color: #fff;
@@ -166,16 +185,16 @@ p{
   padding: 0 5%;
 }
 
-.cta-button{
+.cta-button {
   margin: 30px 15px;
 }
 
-
 /* footer */
-#footer{
+#footer {
   padding: 7% 14%;
-  text-align: center;
+
 }
-.footer-icon{
+
+.footer-icon {
   margin: 20px 10px;
 }
