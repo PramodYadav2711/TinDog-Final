@@ -64,11 +64,16 @@ p{
 /* title-image */
 
 .title-image{
-  width: 280px;
-  height: 566px;
+  /* width: 280px;
+  height: 566px; */
+  width: 60%;
   transform: rotate(25deg);
   position: absolute;
   right: 23%;
+}
+.title-div{
+  position: relative;
+  /* to fix the image issur geting oversized when set it's widthto 60% and positionto absolute, refer .title-image */
 }
 
 /* features section */
@@ -127,4 +132,19 @@ p{
 }
 .pricing-column{
   padding: 3% 2%;
+}
+
+/* media query */
+@media (max-width: 1028px) {
+  #title{
+    text-align: center;
+  }
+
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+  /* .title-div{
+    position: static;
+  } */
 }
