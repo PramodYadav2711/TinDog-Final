@@ -4,7 +4,16 @@
 }
 
 .container-fluid {
-  padding: 1% 15%;
+  padding: 5% 15%;
+}
+
+/* sections */
+.colored-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+.white-section{
+  background-color: #fff;
 }
 
 body {
@@ -108,7 +117,7 @@ p {
 #testimonials {
 
   background-color: #ef8172;
-  color: #fff;
+
 }
 
 .testimonial-image {
@@ -156,7 +165,7 @@ p {
 /* media query */
 @media (max-width: 1028px) {
   #title {
-
+  text-align: center;
   }
 
   .title-image {
@@ -171,7 +180,7 @@ p {
 
 /* Call to action section */
 #cta {
-  background-color: #ff4c68;
+
 
   padding: 7% 15%;
 }
